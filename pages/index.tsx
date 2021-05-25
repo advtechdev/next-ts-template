@@ -1,7 +1,7 @@
-import { FC } from "react"
 import Layout from "components/layout"
+import { NextPage } from "next"
 
-const HomePage: FC = () => {
+const HomePage: NextPage = () => {
   return <Layout></Layout>
 }
 

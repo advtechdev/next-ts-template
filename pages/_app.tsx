@@ -1,9 +1,9 @@
 import "../styles/globals.css"
 
 import { AppProps } from "next/app"
-import { FC } from "react"
+import { NextPage } from "next"
 
-const App: FC<AppProps> = ({ Component, pageProps }) => (
+const App: NextPage<AppProps> = ({ Component, pageProps }) => (
   <Component {...pageProps} />
 )
 
